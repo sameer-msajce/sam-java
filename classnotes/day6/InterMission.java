@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class IntersectionOfArrays {
+public class InterMission {
 
     public static int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> set1 = new HashSet<>();
