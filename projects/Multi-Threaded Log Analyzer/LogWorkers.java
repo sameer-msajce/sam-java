@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.concurrent.Callable;
 import java.util.stream.Stream;
 
-public class LogWorker implements Callable<Map<String, Integer>> {
+public class LogWorker<Map<String, Integer>> {
 
     private final Path filePath;
     private final String[] keywords;
